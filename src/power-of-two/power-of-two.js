@@ -11,7 +11,7 @@ export const isPowerOfTwo = (num) => {
 // Utilizing bitwise operators
 // Binary number: 128 64 32 16 8 4 2 1
 // Converting number to binary number - using subtractions 75 -> 01001011
+// Time complexity: O(1)
 export const isPowerOfTwoBitwise = (num) => {
     return num & (num - 1) ? false : true;
 };
-
