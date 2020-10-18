@@ -1,13 +1,25 @@
-import isNumberPrime from "./primal-numbers";
+import { isNumberPrime, isNUmberPrimeMath } from "./primal-numbers";
 
-describe("Is 4 prime", () => {
-    test("2nd element of fibonacci sequence", () => {
+describe("Is number prime", () => {
+    test("Is 4 prime number", () => {
         expect(isNumberPrime(4)).toBe(false);
     });
-    test("2nd element of fibonacci sequence", () => {
+    test("Is 17 prime number", () => {
         expect(isNumberPrime(17)).toBe(true);
     });
-    test("2nd element of fibonacci sequence", () => {
+    test("Is 97 prime number", () => {
         expect(isNumberPrime(97)).toBe(true);
+    });
+});
+
+describe("Is number prime Math", () => {
+    test("Is 4 prime number", () => {
+        expect(isNumberPrimeMath(4)).toBe(false);
+    });
+    test("Is 17 prime number", () => {
+        expect(isNumberPrimeMath(17)).toBe(true);
+    });
+    test("Is 97 prime number", () => {
+        expect(isNumberPrimeMath(97)).toBe(true);
     });
 });
