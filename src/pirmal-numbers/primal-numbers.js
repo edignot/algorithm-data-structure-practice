@@ -19,5 +19,3 @@ export const isNumberPrimeMath = (num) => {
     }
     return true;
 };
-
-console.log(isNumberPrimeMath(4));
