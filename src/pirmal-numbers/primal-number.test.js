@@ -1,4 +1,4 @@
-import { isNumberPrime, isNUmberPrimeMath } from "./primal-numbers";
+import { isNumberPrime, isNumberPrimeMath } from "./primal-numbers";
 
 describe("Is number prime", () => {
     test("Is 4 prime number", () => {
@@ -13,8 +13,8 @@ describe("Is number prime", () => {
 });
 
 describe("Is number prime Math", () => {
-    test("Is 4 prime number", () => {
-        expect(isNumberPrimeMath(4)).toBe(false);
+    test("Is 9 prime number", () => {
+        expect(isNumberPrimeMath(9)).toBe(false);
     });
     test("Is 17 prime number", () => {
         expect(isNumberPrimeMath(17)).toBe(true);

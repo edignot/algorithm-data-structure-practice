@@ -12,8 +12,11 @@ export const isNumberPrime = (num) => {
 
 // Algorithm optimization with Math.sqrt()
 export const isNumberPrimeMath = (num) => {
-    for (let i = 0; i < Math.sqrt(num); i++) {
-        if (num % i === 0) return false;
+    let isPrime = true;
+    for (let i = 2; i < Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            isPrime = false;
+        }
     }
-    return true;
+    return isPrime;
 };
