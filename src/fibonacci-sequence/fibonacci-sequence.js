@@ -1,5 +1,7 @@
 // Problem: return the nth element of the Fibonacci sequence
-// Fibonacci sequence: 1,1,2,3,5,8,13,21...
+// Details: e.g. fibonacci sequence: 1,1,2,3,5,8,13,21...
+
+// Time complexity: O(n)
 
 const getFibonacciEl = (i) => {
     const fibonacciArr = [1, 1];
