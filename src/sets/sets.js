@@ -68,6 +68,7 @@ export const getAllPermutations = (options) => {
 };
 
 // Permutation algorithm with repetitive values
+// Time complexity: O(n^m) Depend on two input factors, grows faster than exponential O(n!)
 export const getAllPermutationsWithRepetition = (
     options,
     combinationLength
@@ -87,4 +88,3 @@ export const getAllPermutationsWithRepetition = (
     return possibleOptions;
 };
 
-console.log(getAllPermutationsWithRepetition([1, 2, 3], 2).length);
