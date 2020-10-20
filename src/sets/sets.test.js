@@ -1,6 +1,7 @@
 import {
     getCartesianProductsForOf,
     getCartesianProductsUnlimitedSets,
+    getAllPermutations,
 } from "./sets";
 
 describe("Cartesian Product", () => {
@@ -54,6 +55,19 @@ describe("Cartesian Product | Any amount of sets", () => {
             ["red", "M", "no print"],
             ["red", "L", "print"],
             ["red", "L", "no print"],
+        ]);
+    });
+});
+
+describe("Permutations", () => {
+    test("Get All Permutations", () => {
+        expect(getAllPermutations(["a", "b", "c"])).toStrictEqual([
+            ["a", "b", "c"],
+            ["b", "a", "c"],
+            ["b", "c", "a"],
+            ["a", "c", "b"],
+            ["c", "a", "b"],
+            ["c", "b", "a"],
         ]);
     });
 });

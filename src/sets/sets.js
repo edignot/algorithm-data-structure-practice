@@ -31,6 +31,8 @@ export const getCartesianProductsForOf = (colors, sizes) => {
 };
 
 // Unlimited amount of sets:
+// Time complexity: Assuming that all arrays have the same length O(n^x)
+// Space complexity: Assuming that all arrays have the same length O(n^x)
 export const getCartesianProductsUnlimitedSets = (...sets) => {
     let options = sets[0];
     for (let i = 1; i < sets.length; i++) {
@@ -38,3 +40,30 @@ export const getCartesianProductsUnlimitedSets = (...sets) => {
     }
     return options;
 };
+
+// Permutations algorithm - ordered combinations of values, can be without or with repetition
+// All possible combination of items with or without repetition
+// One extra loop per extra element inside input array
+export const getAllPermutations = (options) => {
+    const possibleOptions = [];
+    if (options.length === 1) {
+        return [options];
+    }
+    const partialOptions = getAllPermutations(options.slice(1));
+
+    const firstOption = options[0];
+
+    for (let i = 0; i < partialOptions.length; i++) {
+        const partialOption = partialOptions[i];
+        for (let x = 0; x <= partialOptions.length; x++) {
+            const optionInFront = partialOption.slice(0, x);
+            const optionAfter = partialOption.slice(x);
+            possibleOptions.push(
+                optionInFront.concat([firstOption], optionAfter)
+            );
+        }
+    }
+    return possibleOptions;
+};
+
+console.log(getAllPermutations(["a", "b", "c"]));
