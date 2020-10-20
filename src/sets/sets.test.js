@@ -1,9 +1,12 @@
-import { getCartesianProducts } from "./sets";
+import {
+    getCartesianProductsForOf,
+    getCartesianProductsUnlimitedSets,
+} from "./sets";
 
 describe("Cartesian Product", () => {
     test("Cartesian Product", () => {
         expect(
-            getCartesianProducts(["blue", "red"], ["S", "M", "L"])
+            getCartesianProductsForOf(["blue", "red"], ["S", "M", "L"])
         ).toStrictEqual([
             ["blue", "S"],
             ["blue", "M"],
@@ -15,7 +18,7 @@ describe("Cartesian Product", () => {
     });
     test("Cartesian Product", () => {
         expect(
-            getCartesianProducts(["blue", "red", "white"], ["S", "M", "L"])
+            getCartesianProductsForOf(["blue", "red", "white"], ["S", "M", "L"])
         ).toStrictEqual([
             ["blue", "S"],
             ["blue", "M"],
@@ -26,6 +29,31 @@ describe("Cartesian Product", () => {
             ["white", "S"],
             ["white", "M"],
             ["white", "L"],
+        ]);
+    });
+});
+
+describe("Cartesian Product | Any amount of sets", () => {
+    test("Cartesian Product | Any amount of sets", () => {
+        expect(
+            getCartesianProductsUnlimitedSets(
+                ["blue", "red"],
+                ["S", "M", "L"],
+                ["print", "no print"]
+            )
+        ).toStrictEqual([
+            ["blue", "S", "print"],
+            ["blue", "S", "no print"],
+            ["blue", "M", "print"],
+            ["blue", "M", "no print"],
+            ["blue", "L", "print"],
+            ["blue", "L", "no print"],
+            ["red", "S", "print"],
+            ["red", "S", "no print"],
+            ["red", "M", "print"],
+            ["red", "M", "no print"],
+            ["red", "L", "print"],
+            ["red", "L", "no print"],
         ]);
     });
 });
