@@ -2,6 +2,7 @@ import {
     getCartesianProductsForOf,
     getCartesianProductsUnlimitedSets,
     getAllPermutations,
+    getAllPermutationsWithRepetition,
 } from "./sets";
 
 describe("Cartesian Product", () => {
@@ -68,6 +69,45 @@ describe("Permutations", () => {
             ["a", "c", "b"],
             ["c", "a", "b"],
             ["c", "b", "a"],
+        ]);
+    });
+});
+
+describe("Permutations with repetitive items, predefined combination length", () => {
+    test("Get All Permutations with repetitive items", () => {
+        expect(getAllPermutationsWithRepetition([1, 2, 3], 3)).toStrictEqual([
+            [1, 1, 1],
+            [1, 1, 2],
+            [1, 1, 3],
+            [1, 2, 1],
+            [1, 2, 2],
+            [1, 2, 3],
+            [1, 3, 1],
+            [1, 3, 2],
+            [1, 3, 3],
+            [2, 1, 1],
+            [2, 1, 2],
+            [2, 1, 3],
+            [2, 2, 1],
+            [2, 2, 2],
+            [2, 2, 3],
+            [2, 3, 1],
+            [2, 3, 2],
+            [2, 3, 3],
+            [3, 1, 1],
+            [3, 1, 2],
+            [3, 1, 3],
+            [3, 2, 1],
+            [3, 2, 2],
+            [3, 2, 3],
+            [3, 3, 1],
+            [3, 3, 2],
+            [3, 3, 3],
+        ]);
+    });
+    test("Get All Permutations with repetitive items", () => {
+        expect(getAllPermutationsWithRepetition([1], 2)).toStrictEqual([
+            [1, 1],
         ]);
     });
 });
