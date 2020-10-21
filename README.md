@@ -7,38 +7,8 @@ Each problem directory includes:
 
 There might still be some personal comments added for my learning purposes. 
 
-## Data Structures
-
-### Array
-
--   [Fibonacci sequence](https://github.com/edignot/algorithms/tree/master/src/fibonacci-sequence)
-
-```
-const getFibonacciEl = (i) => {
-    const fibonacciArr = [1, 1]
-    for (let x = 1; x < i; x++) {
-        const sum =
-            fibonacciArr[fibonacciArr.length - 1] +
-            fibonacciArr[fibonacciArr.length - 2];
-        fibonacciArr.push(sum);
-    }
-    return fibonacciArr[i];
-}
-
-...
-
-describe("Fibonacci sequence", () => {
-    test("2nd element of fibonacci sequence", () => {
-        expect(getFibonacciEl(2)).toBe(2)
-    })
-    test("7th element of fibonacci sequence", () => {
-        expect(getFibonacciEl(7)).toBe(21)
-    })
-    test("12th element of fibonacci sequence", () => {
-        expect(getFibonacciEl(12)).toBe(233)
-    })
-})
-```
+## Algorithms by Topic:
+- **Math** 
 
 ## Usage
 -   Clone this repo
