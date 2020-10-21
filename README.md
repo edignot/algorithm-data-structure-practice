@@ -25,6 +25,17 @@ There might still be some personal comments added for my learning purposes.
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/power-of-two/power-of-two.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/power-of-two/power-of-two.test.js)
 
+- **Sorting**
+    * Merge Sort 
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.test.js)
+    * Quick Sort
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.test.js)
+    * Bubble Sort 
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.test.js)
+
 
 ## Usage
 -   Clone this repo
