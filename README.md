@@ -8,6 +8,7 @@ Each problem directory includes:
 There might still be some personal comments added for my learning purposes. 
 
 ## Algorithms by Topic:
+
 - **Math**
     * Fibonacci Sequence
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.js) 
@@ -36,6 +37,13 @@ There might still be some personal comments added for my learning purposes.
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.test.js)
 
+- **All**
+    * Knapsack 
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/kanpsack/knapsack.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/kanpsack/knapsack.test.js)
+    * Tree relation
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/recursion-tree/recursion-tree.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/recursion-tree/recursion-tree.test.js)
 
 ## Usage
 -   Clone this repo
