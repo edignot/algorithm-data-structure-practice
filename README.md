@@ -46,6 +46,9 @@ There might still be some personal comments added for my learning purposes.
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/integer-to-roman/integer-to-roman.test.js)
 
 - **All**
+    * Robot Return to Origin
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/robot/robot.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/robot/robot.test.js)
     * Snail
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/snail/snail.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/snail/snail.test.js)
