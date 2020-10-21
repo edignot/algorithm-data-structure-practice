@@ -8,7 +8,8 @@ Each problem directory includes:
 There might still be some personal comments added for my learning purposes. 
 
 ## Algorithms by Topic:
-- **Math** 
+- **Math**
+* Fibonacci 
 
 ## Usage
 -   Clone this repo
