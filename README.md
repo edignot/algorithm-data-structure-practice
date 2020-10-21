@@ -9,7 +9,7 @@ There might still be some personal comments added for my learning purposes.
 
 ## Algorithms by Topic:
 - **Math**
-    * [``Fibonacci Sequence``] 
+    * Fibonacci Sequence
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.test.js)
 
