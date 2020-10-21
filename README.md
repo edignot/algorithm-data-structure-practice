@@ -38,6 +38,9 @@ There might still be some personal comments added for my learning purposes.
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.test.js)
 
 - **All**
+    * Snail
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/snail/snail.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/snail/snail.test.js)
     * Knapsack 
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/kanpsack/knapsack.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/kanpsack/knapsack.test.js)
