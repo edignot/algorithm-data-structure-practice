@@ -12,6 +12,19 @@ There might still be some personal comments added for my learning purposes.
     * Fibonacci Sequence
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.test.js)
+    * Factorial
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/factorial/factorial.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/factorial/factorial.test.js)
+    * Min Number
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/min-number/min-number.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/min-number/min-number.test.js)
+    * Prime Number
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/pirmal-numbers/primal-numbers.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/pirmal-numbers/primal-number.test.js)
+    * Power of 2
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/power-of-two/power-of-two.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/power-of-two/power-of-two.test.js)
+
 
 ## Usage
 -   Clone this repo
