@@ -9,7 +9,7 @@ There might still be some personal comments added for my learning purposes.
 
 ## Algorithms by Topic:
 - **Math**
-* Fibonacci 
+    * Fibonacci 
 
 ## Usage
 -   Clone this repo
