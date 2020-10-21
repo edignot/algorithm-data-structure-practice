@@ -7,7 +7,7 @@ Each problem directory includes:
 
 There might still be some personal comments added for my learning purposes. 
 
-## Algorithms by Topic:
+## Algorithms:
 
 - **Math**
     * Fibonacci Sequence
@@ -37,6 +37,14 @@ There might still be some personal comments added for my learning purposes.
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/sorting/sorting.test.js)
 
+- **LeetCode**
+    * Valid Parentheses
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/valid-parentheses/valid-parentheses.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/valid-parentheses/valid-parentheses.test.js)
+    * Integer to Roman
+[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/integer-to-roman/integer-to-roman.js) 
+[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/integer-to-roman/integer-to-roman.test.js)
+
 - **All**
     * Snail
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/snail/snail.js) 
@@ -47,9 +55,7 @@ There might still be some personal comments added for my learning purposes.
     * Tree relation
 [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/recursion-tree/recursion-tree.js) 
 [`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/recursion-tree/recursion-tree.test.js)
-    * Valid Parentheses
-[`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/valid-parentheses/valid-parentheses.js) 
-[`Test file`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/valid-parentheses/valid-parentheses.test.js)
+
 
 ## Usage
 -   Clone this repo
