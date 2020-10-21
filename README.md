@@ -9,8 +9,8 @@ There might still be some personal comments added for my learning purposes.
 
 ## Algorithms by Topic:
 - **Math**
-    * Fibonacci Sequence [Solution](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.js) [Test file](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.test.js)
-- ![Hi](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+    * Fibonacci Sequence [`Solution`](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.js) [Test file](https://github.com/edignot/algorithm-data-structure-practice/blob/master/src/fibonacci-sequence/fibonacci-sequence.test.js)
+- ![`Solution`](https://via.placeholder.com/15/f03c15/000000?text=+) 
 ## Usage
 -   Clone this repo
 -   Run npm install to get dependencies
