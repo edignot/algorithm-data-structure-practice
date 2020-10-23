@@ -13,7 +13,7 @@
         "build-dev": "npm-run-all --parallel test package-dev",
         "lint": "node_modules/.bin/esw webpack.config.* src --color",
         "lint:watch": "npm run lint -- --watch",
-        "test": "jest ./src"
+        "test": "jest ./src --watchAll"
     },
     "keywords": [
         "es6"
